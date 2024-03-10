@@ -1,6 +1,7 @@
 venv
 .github
 Notebook
+Xray
 test
 bentofile.yaml
 init_setup.sh
