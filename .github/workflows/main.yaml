@@ -33,6 +33,7 @@ jobs:
 
 
   push_to_registry:
+    needs: integration
     name: Push Docker image to Docker hub
     runs-on: ubuntu-latest
     steps:
